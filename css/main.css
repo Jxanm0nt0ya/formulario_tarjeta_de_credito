@@ -172,26 +172,30 @@ body {
 
 }
 
-.gracias {
+.thank-you {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
-}
-
-.gracias-title {
+    }
+    
+    .thank-you-title {
     text-transform: uppercase;
     font-size: 2rem;
     letter-spacing: 2px;
-}
-
-.texto-gracias {
-    color: hsl(293, 4%, 65%);
-}
-
-.gracias button {
+    }
+    
+    .thank-you-text {
+    color:hsl(293, 4%, 65%);
+    }
+    
+    .thank-you button {
     width: 90%;
-}
+    }
+    
+    .disabled {
+    display: none;
+    }
 
 
 
@@ -241,9 +245,9 @@ body {
     }
 
 
-    .gracias {
+    .thank-you {
         width: 25rem;
+        margin-right: 450;
     }
-
 
 }
